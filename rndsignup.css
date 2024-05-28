@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+    background: url() no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    font-family:'Poppins', serif;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .container {
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 40%;
+      left: 50%;
+    }
+  form {
+      font-size: 120%;
+      padding: 3em;
+      height: 330px;
+      border-radius: 20px;
+      border: 3px white;
+      box-shadow: 20px 20px 40px -6px ;
+      text-align: center;
+      position: relative;
+      transition: all 0.2s ease-in-out;
+      
+    }
+  label[for = "username"], label[for = "password"], label[for = "head"]{
+      font-size: large;
+    }
+  label[for = "head"]{
+      text-align: center;
+    }
+.header
+{
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background: #487e81;
+    padding: 5px 0;
+    color: #fff;
+}
+.header{
+top: 0;
+left: 0;
+right: 0;
+
+}
+
+h2 {
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+  a {
+    text-decoration: none;
+    color: rgb(150, 14, 9);
+    font-size: 12px;    
+  }
+  a:hover {
+    text-shadow: 2px 2px 6px #00000040;
+  }
+  a:active {
+    text-shadow: none;
+  } 
+  input {
+    
+    background: rgb(255, 255, 255);
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+  form label{
+      display: block;
+  }
+  input:focus {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  }
+  input[type="button"] {
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1rem;
+    
+    
+  }
+  input:active {
+      background: rgba(255,255,255,0.2);
+    }
+
+  input:hover {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+  
+
+::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+p{
+    font-size: large;
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    body {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+    
+  }
